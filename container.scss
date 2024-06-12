@@ -1,0 +1,8 @@
+[data-style-container] {
+    &.container { position: relative; overflow: hidden; width: 100%; height: 100%; }
+    &.container-content { width: 100%; height: 100%; }
+    &.container-modal { height: 0; }
+    &.container-modal-portal { overflow: visible; margin: 0; border: none; padding: 0; width: 100%; height: 0; }
+    &.container-scrollable { overflow: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+    &.container-scrollable-z-uninit { overflow: hidden; }
+}
